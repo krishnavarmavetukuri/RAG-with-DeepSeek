@@ -1,0 +1,27 @@
+
+pipenv install streamlit
+
+
+pipenv install langchain langchain_community langchain_ollama langchain_core langchain_openai faiss-cpu pdfplumber
+
+pipenv shell 
+
+
+in a seperate cmd run the below ones 
+ollama pull deepseek-r1:1.5b
+
+ollama run deepseek-r1:1.5b
+
+add a pdf file in the directory
+python vector_database.py
+
+python rag_pipeline.py
+
+streamlit run main.py
+
+
+
+
+
+
+
