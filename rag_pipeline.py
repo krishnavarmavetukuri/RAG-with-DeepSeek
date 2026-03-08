@@ -133,7 +133,7 @@ def answer_query(documents, model, query):
 # Example usage (commented)
 # -------------------------------------------------------------
 # Uncomment the following to test the pipeline manually
-# question = "Limitations of LLM?"
+# question = "If a government bans peaceful protests, which human rights article is affected?"
 # retrieved_docs = retrieve_docs(question)
 # print("AI Lawyer:", answer_query(documents=retrieved_docs, model=llm_model, query=question))
 

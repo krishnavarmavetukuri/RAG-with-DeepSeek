@@ -102,10 +102,10 @@ You can adjust these settings in `main.py` or `vector_database.py` as needed.
 
 ## Example Usage
 
-Upload a PDF (for example, a presentation about **Generative AI and Large Language Models (LLMs)**), then ask:
+Upload a PDF (for example, the **Universal Declaration of Human Rights (1948)**), then ask:
 
 ```text
-What are the limitations of LLMs?
+If a government bans peaceful protests, which human rights article is affected?
 ```
 
 
@@ -113,11 +113,9 @@ What are the limitations of LLMs?
 
 Based on the content of the PDF, the limitations of LLMs include:
 
-- Dependence on verified and up-to-date sources to ensure accuracy.
-- Challenges in handling multimodal data efficiently (text + images + video).
-- Need for optimization for faster performance and edge AI deployment.
-- Limited personalization without additional adaptation for specific users or tasks.
-- Current AI assistants still require guidance for complex domains like coding, healthcare, and finance.
+- Based on the content of the Universal Declaration of Human Rights, banning peaceful protests violates Article 20.
+- Article 20 states that everyone has the right to freedom of peaceful assembly and association. This means individuals have the right to gather, protest, and organize peacefully without interference from authorities.
+- If a government prevents citizens from organizing or participating in peaceful protests, it directly restricts this fundamental human right recognized by the declaration.
 
 
 Notes

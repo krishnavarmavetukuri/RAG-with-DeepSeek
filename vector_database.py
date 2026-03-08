@@ -59,7 +59,7 @@ def load_pdf(file_path):
 
 
 # Example: Load a specific PDF file
-file_path = 'Generative_AI_Presentation.pdf'
+file_path = 'United_Nations_Universal_Declaration_of_Human_Rights_1948.pdf'
 documents = load_pdf(file_path)
 # print("PDF pages:", len(documents))
 
